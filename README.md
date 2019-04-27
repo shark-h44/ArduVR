@@ -12,10 +12,11 @@ Ce système à été conçu pour piloter des volets roulants équipés de module
 
 ## Exemple de commande
 Commande du relais 1 (3 impulsions de 10ms) : http://IPArduino/?d=1p=3w=10
-Paramétres utilisés dans la commande
-d : N° de relais (device)
-p : Nombre d'impulsions (pulse)
-w : temps d'attente entre chaque impulsion en millisecondes (wait)
+
+Paramétres utilisés dans la commande.
+- d : N° de relais (device).
+- p : Nombre d'impulsions (pulse).
+- w : temps d'attente entre chaque impulsion en millisecondes (wait)
 
 ## Limitation et amélioration
 Ce programme est trés simpliste, il est dépourvu d'interface web, mais fonctionne sans bug (tourne depuis plus depuis 2016)
